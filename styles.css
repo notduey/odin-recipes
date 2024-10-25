@@ -1,6 +1,8 @@
 .title {
     font-style: italic;
     font-size: 150px;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .links {
@@ -8,28 +10,33 @@
     text-align: left;
     list-style-type: none;
     font-size: 25px;
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* list-style-type: none; removes the bullet points on the ul opening/closing tag (unordered list) */
 
-.centerbold {
+.centerblack {
     text-align: center;
-    font-weight: 900;
     color: black;
 }
 
-.links a:link {
+a:link {
     color:black;
     text-decoration: none;
 }
 /* a:link selects unvisited links */
 /* text-decoration: none; removes all properties of the link text i.e. underlined text */
 
-.links a:visited {
+a:visited {
     color:black;
 }
 /* a:visited selects visited links */
 
-.links a:hover {
+a:hover {
     color: rgb(125,125,125);
 }
-/* :hover selects and changes the properties when you hover over a link with your cursor */
+/* a:hover selects and changes the properties when you hover over a link with your cursor */
+
+.title a:hover {
+    color: red;
+}
