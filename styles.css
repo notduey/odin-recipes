@@ -1,0 +1,35 @@
+.title {
+    font-style: italic;
+    font-size: 150px;
+}
+
+.links {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    font-size: 25px;
+}
+/* list-style-type: none; removes the bullet points on the ul opening/closing tag (unordered list) */
+
+.centerbold {
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+
+.links a:link {
+    color:black;
+    text-decoration: none;
+}
+/* a:link selects unvisited links */
+/* text-decoration: none; removes all properties of the link text i.e. underlined text */
+
+.links a:visited {
+    color:black;
+}
+/* a:visited selects visited links */
+
+.links a:hover {
+    color: rgb(125,125,125);
+}
+/* :hover selects and changes the properties when you hover over a link with your cursor */
