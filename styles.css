@@ -1,8 +1,11 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .title {
     font-style: italic;
     font-size: 150px;
     font-weight: 900;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .links {
@@ -11,7 +14,6 @@
     list-style-type: none;
     font-size: 25px;
     font-weight: 550;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* list-style-type: none; removes the bullet points on the ul opening/closing tag (unordered list) */
 
