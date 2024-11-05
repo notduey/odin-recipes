@@ -6,6 +6,18 @@
     font-style: italic;
     font-size: 150px;
     font-weight: 900;
+    background-color: black;
+
+    display: block;
+    margin: 50px auto 100px;
+    padding: 15px;
+    height: auto;
+    width: 500px;
+    border-radius: 15px;
+}
+
+li {
+    margin-bottom: 50px;
 }
 
 .links {
@@ -14,12 +26,23 @@
     list-style-type: none;
     font-size: 25px;
     font-weight: 550;
+
 }
 /* list-style-type: none; removes the bullet points on the ul opening/closing tag (unordered list) */
 
 .centerblack {
     text-align: center;
     color: black;
+}
+
+.centerwhite {
+    text-align: center;
+    color: white;
+}
+
+.centerwhite a:visited {
+    color: white;
+    text-decoration: none;
 }
 
 a:link {
